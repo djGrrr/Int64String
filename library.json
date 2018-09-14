@@ -1,0 +1,19 @@
+{
+  "name": "StringInt64",
+  "frameworks": "arduino",
+  "keywords": "uint64_t, int64_t",
+  "description": "Convert 64bit integers to strings",
+  "url": "https://github.com/djGrrr/StringInt64",
+  "authors": [{
+    "name": "djGrrr"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djGrrr/StringInt64.git"
+  },
+  "platforms": "*",
+  "version": "1.0.0",
+  "dependencies": {
+
+  }
+}
