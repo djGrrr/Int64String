@@ -11,7 +11,7 @@
 #  include "WString.h"
 # endif
 
-String Int64String(uint64_t value, uint8_t base = DEC, bool prefix = false, bool sign = false);
-String Int64String(int64_t value, uint8_t base = DEC, bool prefix = false);
+String int64String(uint64_t value, uint8_t base = DEC, bool prefix = false, bool sign = false);
+String int64String(int64_t value, uint8_t base = DEC, bool prefix = false);
 
 #endif // INT64STRING_H
