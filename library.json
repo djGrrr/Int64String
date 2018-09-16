@@ -5,7 +5,8 @@
   "description": "Convert 64bit integers to strings",
   "url": "https://github.com/djGrrr/Int64String",
   "authors": [{
-    "name": "djGrrr"
+    "name": "djGrrr",
+    "email": "arduino-libs@linuxhosted.ca"
   }],
   "repository": {
     "type": "git",
