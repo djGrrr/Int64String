@@ -56,4 +56,3 @@ Will output the following on the Serial Monitor:
 0
 B0
 ```
-
