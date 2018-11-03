@@ -13,7 +13,7 @@
 
 # define base16char(i) ("0123456789ABCDEF"[i])
 
-String int64String(uint64_t value, uint8_t base = DEC, bool prefix = false, bool sign = false);
-String int64String(int64_t value, uint8_t base = DEC, bool prefix = false);
+String int64String(uint64_t, uint8_t = DEC, bool = false, bool = false);
+String int64String(int64_t, uint8_t = DEC, bool = false);
 
 #endif // INT64STRING_H

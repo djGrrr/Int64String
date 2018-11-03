@@ -7,7 +7,7 @@
 // Unsigned integer function, it does the bulk of the work, returns a String
 // Based on work done by Rob Tillaart on the print9 function from:
 // https://forum.arduino.cc/index.php?topic=143584.msg1519824#msg1519824
-String int64String(uint64_t value, uint8_t base = DEC, bool prefix = false, bool sign = false) {
+String int64String(uint64_t value, uint8_t base, bool prefix, bool sign) {
   // keep base within "reasonable limits
   if (base < 2)
     base = 2;
@@ -77,7 +77,7 @@ String int64String(uint64_t value, uint8_t base = DEC, bool prefix = false, bool
 }
 
 // Signed integer function, returns a String
-String int64String(int64_t value, uint8_t base = DEC, bool prefix = false) {
+String int64String(int64_t value, uint8_t base, bool prefix) {
   // Signed numbers only make sense for decimal numbers
   bool sign = base == DEC && value < 0;
   // if signed, make it positive
